@@ -19,7 +19,6 @@ Anyone who is learning basic cryptography or Python can use this project as a sm
 - [Example](#example)
 - [How to Run](#how-to-run)
 - [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
 - [Educational Purpose](#educational-purpose)
 - [Author](#author)
 
