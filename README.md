@@ -10,19 +10,7 @@ Anyone who is learning basic cryptography or Python can use this project as a sm
 
 ---
 
-## Table of Contents
 
-- [About the Project](#about-the-project)
-- [How Caesar Cipher Works](#how-caesar-cipher-works)
-- [Features](#features)
-- [What I Learned](#what-i-learned)
-- [Example](#example)
-- [How to Run](#how-to-run)
-- [Project Structure](#project-structure)
-- [Educational Purpose](#educational-purpose)
-- [Author](#author)
-
----
 
 ## About the Project
 
