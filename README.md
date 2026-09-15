@@ -45,10 +45,10 @@ This program allows the user to:
 
 Each letter has a position in the alphabet:
 
-
+```
 A B C D E F ... Z
 0 1 2 3 4 5 ... 25  
-
+```
 For encryption, the key is added to the current position:
 
 New Position = (Current Position + Key) % 26
@@ -168,10 +168,6 @@ decrypt image.png
 
 Shows an example of the decryption process.
 
-Screenshots
-Encryption
-
-Decryption
 
 Educational Purpose
 
@@ -187,6 +183,4 @@ Author
 
 Wael Alsulami
 
-GitHub: WaelALSULAMI1
 
-Repository: caesarCipher
