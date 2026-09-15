@@ -45,9 +45,9 @@ This program allows the user to:
 
 Each letter has a position in the alphabet:
 
-```text
+
 A B C D E F ... Z
-0 1 2 3 4 5 ... 25
+0 1 2 3 4 5 ... 25  
 
 For encryption, the key is added to the current position:
 
