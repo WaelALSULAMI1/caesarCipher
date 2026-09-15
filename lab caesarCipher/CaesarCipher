@@ -1,0 +1,45 @@
+small = "abcdefghijklmnopqrstuvwxyz"
+capital = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+print("Caesar Cipher program")
+print("1- Encrypt a message")
+print("2- Decrypt a message")
+
+choice = input("Enter your choose: ")
+key = int(input("Enter the key: "))
+
+if choice == "1":
+    text = input("Enter the plaintext: ")
+else:
+    text = input("Enter the ciphertext: ")
+
+result = ""
+
+for letter in text:
+
+    if letter in small:
+        position = small.index(letter)
+
+        if choice == "1":
+            new_position = (position + key) % 26
+        else:
+            new_position = (position - key) % 26
+
+        result = result + small[new_position]
+
+    elif letter in capital:
+        position = capital.index(letter)
+
+        if choice == "1":
+            new_position = (position + key) % 26
+        else:
+            new_position = (position - key) % 26
+
+        result = result + capital[new_position]
+
+    else:
+        result = result + letter
+
+if choice == "1":
+    print("Ciphertext:", result)
+else:
+    print("Plaintext:", result)
